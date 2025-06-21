@@ -41,13 +41,15 @@ Miguel Hernández, Sr. Threat Research Engineer at Sysdig, is a lifelong learner
 
 - [2019](./2019/)
   - STIC CCN CERT - *Protection against DeepFake*
-  - Cybercamp - *Security in AR*
+  - Cybercamp - *DeepConfusables*
   - Codemotion - *Blackmirror o realidad - OSINT + Face recognition*
   - HITB - *DeepUnicode, problems with confusables*
   - JNIC - *DeepConfusables: mejorando la detección de ataques basados en codificación Unicode*
+  - RootedCon Valencia - *Playing with Mastodon for fun and profit*
 
 - [2017](./2017/)
   - Secrypt - *(In) Security in Graph Databases*
+  - Cybercamp - *Seguridad en redes sociales libres*
   - JNIC - *Análisis de la seguridad de las bases de datos orientadas a grafos*
 
 - [2016](./2016/)
