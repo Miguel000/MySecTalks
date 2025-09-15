@@ -12,6 +12,7 @@ Miguel Hernández, Sr. Threat Research Engineer at Sysdig, is a lifelong learner
   - Devops Zaragoza — *Robo de credenciales y el negocio del roleplay NSFW*
   - Tardes de Ciberseguridad — *Día a día de un investigador de ciberseguridad en Sysdig*
   - DFeX 2025 — *From Research to Security: Real-World Threats and the Evolving Challenge of Detection*
+  - fwd: Cloudsec EU — *Cloud Abuse at Scale: How Cybercriminals Exploit Free Tiers for Profit*
 
 - [2024](./2024/)
   - BSides Barcelona — *Beyond Cryptominers: Unveiling the Depths of AWS Post-Exploitation Strategies*
@@ -30,7 +31,7 @@ Miguel Hernández, Sr. Threat Research Engineer at Sysdig, is a lifelong learner
 - [2022](./2022/)
   - KubeCon EU - *How Attackers Use Exposed Prometheus Server to Exploit Kubernetes Cluster*
   - DragonJar - *Después de proteger la infraestructura y los datos, deberías preocuparte por tus modelos de IA*
-  - AllDaysDevOps - *Secure Your Prometheus Server From Indiscreet Eyes or Die by Metrics* 
+  - AllDaysDevOps - *Secure Your Prometheus Server From Indiscreet Eyes or Die by Metrics*
   - KCD Spain - *Reforzando la seguridad de Kubernetes con gVisor y Falco*
 
 - [2021](./2021/)
@@ -48,7 +49,7 @@ Miguel Hernández, Sr. Threat Research Engineer at Sysdig, is a lifelong learner
   - RootedCon Valencia - *Playing with Mastodon for fun and profit*
 
 - [2017](./2017/)
-  - Secrypt - *(In) Security in Graph Databases*
+  - Secrypt - *(In) Security in Graph Databases* 
   - Cybercamp - *Seguridad en redes sociales libres*
   - JNIC - *Análisis de la seguridad de las bases de datos orientadas a grafos*
 

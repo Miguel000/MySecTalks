@@ -6,4 +6,7 @@ Adéntrate en el mundo de LLMjacking, un nuevo ataque descubierto que aprovecha 
 
 ## 📚 Resources
 
-- Related Blog Post: [LLMJacking](https://sysdig.com/blog/llmjacking-stolen-cloud-credentials-used-in-new-ai-attack/), [LLMJacking 2](https://sysdig.com/blog/growing-dangers-of-llmjacking/), [LLMjacking Deepsek](https://sysdig.com/blog/llmjacking-targets-deepseek/)
+- Related Blog Post:
+  - [LLMJacking](https://sysdig.com/blog/llmjacking-stolen-cloud-credentials-used-in-new-ai-attack/)
+  - [LLMJacking 2](https://sysdig.com/blog/growing-dangers-of-llmjacking/)
+  - [LLMjacking Deepsek](https://sysdig.com/blog/llmjacking-targets-deepseek/)

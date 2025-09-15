@@ -8,4 +8,7 @@ Se explicarán las distintas áreas que hacen posible este trabajo, la investiga
 
 ## 📚 Resources
 
-- Related Blog Post: [Emeraldwhale](https://sysdig.com/blog/emeraldwhale/), [CrystalRay](https://sysdig.com/blog/crystalray-rising-threat-actor-exploiting-oss-tools/), [LLMjacking Deepsek](https://sysdig.com/blog/llmjacking-targets-deepseek/)
+- Related Blog Post:
+  - [Emeraldwhale](https://sysdig.com/blog/emeraldwhale/)
+  - [CrystalRay](https://sysdig.com/blog/crystalray-rising-threat-actor-exploiting-oss-tools/)
+  - [LLMjacking Deepsek](https://sysdig.com/blog/llmjacking-targets-deepseek/)

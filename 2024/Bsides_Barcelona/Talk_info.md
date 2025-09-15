@@ -6,4 +6,6 @@ Explore AWS post-exploitation beyond the typical narratives of cryptominers runn
 
 ## 📚 Resources
 
-- Related Blog Post: [link](#)  
+- Related Blog Post: 
+  - [Emeraldwhale](https://sysdig.com/blog/emeraldwhale/)
+  - [LLMjacking Deepsek](https://sysdig.com/blog/llmjacking-targets-deepseek/)

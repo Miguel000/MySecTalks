@@ -6,4 +6,7 @@ In this talk, we’ll discuss real-world threat scenarios that reveal how attack
 
 ## 📚 Resources
 
-- Related Blog Post: [Emeraldwhale](https://sysdig.com/blog/emeraldwhale/), [OpenWebUI_AIGenerated_Payload](https://sysdig.com/blog/attacker-exploits-misconfigured-ai-tool-to-run-ai-generated-payload/), [LLMjacking Deepsek](https://sysdig.com/blog/llmjacking-targets-deepseek/)
+- Related Blog Post:
+  - [Emeraldwhale](https://sysdig.com/blog/emeraldwhale/)
+  - [OpenWebUI_AIGenerated_Payload](https://sysdig.com/blog/attacker-exploits-misconfigured-ai-tool-to-run-ai-generated-payload/)
+  - [LLMjacking Deepsek](https://sysdig.com/blog/llmjacking-targets-deepseek/)
