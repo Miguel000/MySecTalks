@@ -48,6 +48,8 @@ Miguel Hernández, Sr. Threat Research Engineer at Sysdig, is a lifelong learner
 - [2020](./2020/)
   - StandOff - *Issues and limitations in generation and detection of synthetic data*
     - [Video](https://www.youtube.com/watch?v=SjeE2erDzFY)
+  - Cybercamp - *Y se ARmo la marimorena! Seguridad en realidad aumentada*
+      - [Video](https://www.youtube.com/watch?v=TJirrht7MuQ)
 
 - [2019](./2019/)
   - STIC CCN CERT - *Protection against DeepFake*
