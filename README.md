@@ -44,6 +44,7 @@ Miguel Hernández, Sr. Threat Research Engineer at Sysdig, is a lifelong learner
 - [2021](./2021/)
   - STIC CCN CERT - *Introduccion al Adversarial Machine Learning*
     - [Video](https://www.youtube.com/watch?v=jsDLt5gBnmY)
+  - JNIC - *Estado del arte en generación y detección de contenido sintético. Limitaciones y oportunidades* 
 
 - [2020](./2020/)
   - StandOff - *Issues and limitations in generation and detection of synthetic data*
