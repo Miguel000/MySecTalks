@@ -1,0 +1,426 @@
+{
+  "talks": [
+    {
+      "id": "hook-level-detection",
+      "title": "Hook Before You Look",
+      "short": "Hook BYL",
+      "format": "40 min + demo"
+    },
+    {
+      "id": "five-tiers-ai-agent-detection",
+      "title": "Five Tiers of AI Agent Threat",
+      "short": "5 Tiers AI",
+      "format": "45 min / workshop"
+    },
+    {
+      "id": "cicd-supply-chain-falco",
+      "title": "CI/CD Supply Chain",
+      "short": "CI/CD SC",
+      "format": "40 min + demo"
+    },
+    {
+      "id": "npm-worms-supply-chain",
+      "title": "Shai-Hulud: npm Worms",
+      "short": "npm Worms",
+      "format": "40 min"
+    },
+    {
+      "id": "ai-robust-security-challenges",
+      "title": "AI-Robust Security",
+      "short": "AI Robust",
+      "format": "40 min / workshop"
+    }
+  ],
+  "regions": [
+    { "id": "europe-security", "label": "Europe — Security" },
+    { "id": "europe-more", "label": "Europe — More Security" },
+    { "id": "spain", "label": "Spain" },
+    { "id": "outside-eu", "label": "Outside Europe (EN)" },
+    { "id": "tech", "label": "Tech Conferences" },
+    { "id": "latam", "label": "Latin America (ES)" }
+  ],
+  "conferences": [
+    {
+      "id": "fosdem",
+      "name": "FOSDEM",
+      "location": "Brussels, BE",
+      "region": "europe-more",
+      "event_month": "February",
+      "cfp_opens": "October",
+      "cfp_closes": "November",
+      "prior": false
+    },
+    {
+      "id": "troopers",
+      "name": "Troopers",
+      "location": "Heidelberg, DE",
+      "region": "europe-security",
+      "event_month": "March",
+      "cfp_opens": "September",
+      "cfp_closes": "October",
+      "prior": false
+    },
+    {
+      "id": "insomni-hack",
+      "name": "Insomni'hack",
+      "location": "Geneva, CH",
+      "region": "europe-security",
+      "event_month": "March",
+      "cfp_opens": "November",
+      "cfp_closes": "December",
+      "prior": false
+    },
+    {
+      "id": "offensivecon",
+      "name": "OffensiveCon",
+      "location": "Berlin, DE",
+      "region": "europe-more",
+      "event_month": "May",
+      "cfp_opens": "January",
+      "cfp_closes": "March",
+      "prior": false
+    },
+    {
+      "id": "confidence",
+      "name": "CONFidence",
+      "location": "Kraków, PL",
+      "region": "europe-more",
+      "event_month": "May",
+      "cfp_opens": "December",
+      "cfp_closes": "February",
+      "prior": false
+    },
+    {
+      "id": "lehack",
+      "name": "LeHack",
+      "location": "Paris, FR",
+      "region": "europe-more",
+      "event_month": "June",
+      "cfp_opens": "January",
+      "cfp_closes": "April",
+      "prior": false
+    },
+    {
+      "id": "pass-the-salt",
+      "name": "Pass The Salt",
+      "location": "Lille, FR",
+      "region": "europe-security",
+      "event_month": "July",
+      "cfp_opens": "January",
+      "cfp_closes": "March",
+      "prior": false
+    },
+    {
+      "id": "44con",
+      "name": "44CON",
+      "location": "London, UK",
+      "region": "europe-security",
+      "event_month": "September",
+      "cfp_opens": "April",
+      "cfp_closes": "June",
+      "prior": false
+    },
+    {
+      "id": "sec-t",
+      "name": "SEC-T",
+      "location": "Stockholm, SE",
+      "region": "europe-more",
+      "event_month": "September",
+      "cfp_opens": "April",
+      "cfp_closes": "June",
+      "prior": false
+    },
+    {
+      "id": "nullcon-berlin",
+      "name": "Nullcon Berlin",
+      "location": "Berlin, DE",
+      "region": "europe-more",
+      "event_month": "September",
+      "cfp_opens": "April",
+      "cfp_closes": "June",
+      "prior": false
+    },
+    {
+      "id": "fwd-cloudsec-eu",
+      "name": "fwd:CloudSec EU",
+      "location": "London, UK",
+      "region": "europe-more",
+      "event_month": "September",
+      "cfp_opens": "May",
+      "cfp_closes": "July",
+      "prior": true
+    },
+    {
+      "id": "no-hat",
+      "name": "No Hat",
+      "location": "Bergamo, IT",
+      "region": "europe-security",
+      "event_month": "October",
+      "cfp_opens": "May",
+      "cfp_closes": "July",
+      "prior": false
+    },
+    {
+      "id": "hacklu",
+      "name": "Hack.lu",
+      "location": "Luxembourg",
+      "region": "europe-security",
+      "event_month": "October",
+      "cfp_opens": "June",
+      "cfp_closes": "July",
+      "prior": true
+    },
+    {
+      "id": "navajanegra",
+      "name": "NavajaNegra",
+      "location": "Albacete, ES",
+      "region": "spain",
+      "event_month": "October",
+      "cfp_opens": "May",
+      "cfp_closes": "July",
+      "prior": true
+    },
+    {
+      "id": "vb-virusbulletin",
+      "name": "VB / Virus Bulletin",
+      "location": "Seville, ES",
+      "region": "europe-more",
+      "event_month": "October",
+      "cfp_opens": "March",
+      "cfp_closes": "May",
+      "prior": false
+    },
+    {
+      "id": "botconf",
+      "name": "BotConf",
+      "location": "Rotating EU",
+      "region": "europe-security",
+      "event_month": "November",
+      "cfp_opens": "June",
+      "cfp_closes": "August",
+      "prior": false
+    },
+    {
+      "id": "deepsec",
+      "name": "DeepSec",
+      "location": "Vienna, AT",
+      "region": "europe-security",
+      "event_month": "November",
+      "cfp_opens": "June",
+      "cfp_closes": "August",
+      "prior": true
+    },
+    {
+      "id": "blackhat-eu",
+      "name": "Black Hat EU",
+      "location": "London, UK",
+      "region": "europe-security",
+      "event_month": "December",
+      "cfp_opens": "June",
+      "cfp_closes": "August",
+      "prior": false
+    },
+    {
+      "id": "c3-ccc",
+      "name": "C3 / CCC",
+      "location": "Hamburg, DE",
+      "region": "europe-security",
+      "event_month": "December",
+      "cfp_opens": "August",
+      "cfp_closes": "September",
+      "prior": false
+    },
+    {
+      "id": "rootedcon",
+      "name": "RootedCon",
+      "location": "Madrid, ES",
+      "region": "spain",
+      "event_month": "March",
+      "cfp_opens": "October",
+      "cfp_closes": "December",
+      "prior": true
+    },
+    {
+      "id": "shmoocon",
+      "name": "ShmooCon",
+      "location": "Washington D.C., USA",
+      "region": "outside-eu",
+      "event_month": "January",
+      "cfp_opens": "August",
+      "cfp_closes": "October",
+      "prior": false
+    },
+    {
+      "id": "fwd-cloudsec-na",
+      "name": "fwd:CloudSec NA",
+      "location": "Bellevue, USA",
+      "region": "outside-eu",
+      "event_month": "June",
+      "cfp_opens": "February",
+      "cfp_closes": "April",
+      "prior": false
+    },
+    {
+      "id": "blackhat-usa",
+      "name": "Black Hat USA",
+      "location": "Las Vegas, USA",
+      "region": "outside-eu",
+      "event_month": "August",
+      "cfp_opens": "January",
+      "cfp_closes": "March",
+      "prior": false
+    },
+    {
+      "id": "defcon",
+      "name": "DEF CON",
+      "location": "Las Vegas, USA",
+      "region": "outside-eu",
+      "event_month": "August",
+      "cfp_opens": "March",
+      "cfp_closes": "May",
+      "prior": false
+    },
+    {
+      "id": "hitb",
+      "name": "HITB",
+      "location": "Singapore / Abu Dhabi",
+      "region": "outside-eu",
+      "event_month": "August / November",
+      "cfp_opens": "varies",
+      "cfp_closes": "varies",
+      "prior": true
+    },
+    {
+      "id": "sector",
+      "name": "SecTor",
+      "location": "Toronto, CA",
+      "region": "outside-eu",
+      "event_month": "October",
+      "cfp_opens": "April",
+      "cfp_closes": "June",
+      "prior": false
+    },
+    {
+      "id": "owasp-appsec",
+      "name": "OWASP AppSec",
+      "location": "EU + USA",
+      "region": "outside-eu",
+      "event_month": "Jun / Nov",
+      "cfp_opens": "Nov–Feb",
+      "cfp_closes": "varies",
+      "prior": false
+    },
+    {
+      "id": "open-source-securitycon",
+      "name": "OSS SecurityCon",
+      "location": "Amsterdam, NL",
+      "region": "tech",
+      "event_month": "March",
+      "cfp_opens": "October",
+      "cfp_closes": "November",
+      "prior": false
+    },
+    {
+      "id": "kubecon",
+      "name": "KubeCon EU/NA",
+      "location": "Amsterdam / SLC",
+      "region": "tech",
+      "event_month": "March / November",
+      "cfp_opens": "October / April",
+      "cfp_closes": "Dec / Jun",
+      "prior": true
+    },
+    {
+      "id": "github-universe",
+      "name": "GitHub Universe",
+      "location": "San Francisco, USA",
+      "region": "tech",
+      "event_month": "October",
+      "cfp_opens": "March",
+      "cfp_closes": "May",
+      "prior": false
+    },
+    {
+      "id": "ekoparty",
+      "name": "Ekoparty",
+      "location": "Buenos Aires, AR",
+      "region": "latam",
+      "event_month": "October",
+      "cfp_opens": "May",
+      "cfp_closes": "July",
+      "prior": false
+    },
+    {
+      "id": "dragonjar",
+      "name": "DragonJAR",
+      "location": "Colombia",
+      "region": "latam",
+      "event_month": "October",
+      "cfp_opens": "June",
+      "cfp_closes": "August",
+      "prior": true
+    },
+    {
+      "id": "8dot8",
+      "name": "8.8",
+      "location": "Santiago, CL",
+      "region": "latam",
+      "event_month": "November",
+      "cfp_opens": "June",
+      "cfp_closes": "August",
+      "prior": false
+    },
+    {
+      "id": "bugcon",
+      "name": "BugCON",
+      "location": "Mexico City, MX",
+      "region": "latam",
+      "event_month": "November",
+      "cfp_opens": "July",
+      "cfp_closes": "September",
+      "prior": false
+    }
+  ],
+  "fit": {
+    "hook-level-detection": [
+      "troopers", "deepsec", "44con", "insomni-hack",
+      "offensivecon", "confidence", "sec-t", "lehack", "fwd-cloudsec-eu", "nullcon-berlin",
+      "rootedcon", "navajanegra",
+      "defcon", "blackhat-usa", "shmoocon", "hitb", "sector", "fwd-cloudsec-na", "owasp-appsec",
+      "kubecon", "open-source-securitycon", "github-universe",
+      "ekoparty", "dragonjar", "8dot8", "bugcon"
+    ],
+    "five-tiers-ai-agent-detection": [
+      "hacklu", "pass-the-salt", "c3-ccc", "no-hat",
+      "confidence", "sec-t", "lehack", "fwd-cloudsec-eu", "nullcon-berlin", "vb-virusbulletin",
+      "rootedcon", "navajanegra",
+      "defcon", "shmoocon", "hitb", "sector", "fwd-cloudsec-na", "owasp-appsec",
+      "kubecon", "open-source-securitycon",
+      "ekoparty", "dragonjar", "8dot8", "bugcon"
+    ],
+    "cicd-supply-chain-falco": [
+      "troopers", "deepsec", "44con", "botconf",
+      "offensivecon", "sec-t", "fwd-cloudsec-eu", "nullcon-berlin", "vb-virusbulletin", "fosdem",
+      "rootedcon", "navajanegra",
+      "defcon", "blackhat-usa", "shmoocon", "hitb", "sector", "fwd-cloudsec-na", "owasp-appsec",
+      "kubecon", "open-source-securitycon", "github-universe",
+      "ekoparty", "dragonjar", "8dot8", "bugcon"
+    ],
+    "npm-worms-supply-chain": [
+      "pass-the-salt", "c3-ccc", "no-hat", "botconf",
+      "offensivecon", "confidence", "lehack", "fwd-cloudsec-eu", "nullcon-berlin", "vb-virusbulletin", "fosdem",
+      "rootedcon", "navajanegra",
+      "defcon", "blackhat-usa", "hitb", "sector", "owasp-appsec",
+      "kubecon", "open-source-securitycon", "github-universe",
+      "ekoparty", "dragonjar", "8dot8", "bugcon"
+    ],
+    "ai-robust-security-challenges": [
+      "deepsec", "hacklu", "c3-ccc", "no-hat", "insomni-hack",
+      "confidence", "lehack",
+      "rootedcon", "navajanegra",
+      "defcon", "shmoocon", "hitb", "sector",
+      "ekoparty", "dragonjar", "bugcon"
+    ]
+  },
+  "submissions": []
+}
