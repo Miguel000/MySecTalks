@@ -32,20 +32,26 @@
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
 body {
   background: var(--bg);
   color: var(--text);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', monospace;
-  font-size: 13px;
-  min-height: 100vh;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 header {
   background: var(--bg2);
   border-bottom: 1px solid var(--border);
   padding: 16px 20px;
-  position: sticky;
-  top: 0;
+  flex-shrink: 0;
   z-index: 100;
 }
 
@@ -116,8 +122,9 @@ h1 {
 .save-indicator.saved { color: var(--accepted-text); }
 
 .main {
-  padding: 16px 0;
-  overflow-x: auto;
+  overflow: auto;
+  flex: 1;
+  min-height: 0;
 }
 
 .matrix {
@@ -127,17 +134,17 @@ h1 {
 .matrix-header {
   display: flex;
   position: sticky;
-  top: 89px;
+  top: 0;
   z-index: 50;
   background: var(--bg2);
   border-bottom: 1px solid var(--border);
 }
 
 .col-conf-label {
-  width: 200px;
-  min-width: 200px;
-  padding: 8px 12px;
-  font-size: 11px;
+  width: 240px;
+  min-width: 240px;
+  padding: 10px 14px;
+  font-size: 12px;
   color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -149,22 +156,22 @@ h1 {
 }
 
 .col-talk {
-  width: 110px;
-  min-width: 110px;
-  padding: 8px 6px;
+  width: 150px;
+  min-width: 150px;
+  padding: 10px 8px;
   text-align: center;
-  line-height: 1.3;
+  line-height: 1.4;
 }
 
 .col-talk-title {
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 600;
   color: var(--text);
   display: block;
 }
 
 .col-talk-fmt {
-  font-size: 10px;
+  font-size: 11px;
   color: var(--text-dim);
 }
 
@@ -177,10 +184,10 @@ h1 {
 }
 
 .region-label {
-  width: 200px;
-  min-width: 200px;
-  padding: 6px 12px;
-  font-size: 10px;
+  width: 240px;
+  min-width: 240px;
+  padding: 6px 14px;
+  font-size: 11px;
   font-weight: 600;
   color: var(--text-muted);
   text-transform: uppercase;
@@ -205,12 +212,12 @@ h1 {
 .conf-row:hover { background: var(--bg2); }
 
 .conf-name-cell {
-  width: 200px;
-  min-width: 200px;
-  padding: 7px 12px;
+  width: 240px;
+  min-width: 240px;
+  padding: 8px 14px;
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
   position: sticky;
   left: 0;
   background: var(--bg);
@@ -223,7 +230,7 @@ h1 {
 .conf-row:hover .conf-name-cell { background: var(--bg2); }
 
 .conf-name {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--text);
   white-space: nowrap;
   overflow: hidden;
@@ -231,7 +238,7 @@ h1 {
 }
 
 .conf-location {
-  font-size: 10px;
+  font-size: 11px;
   color: var(--text-dim);
   white-space: nowrap;
 }
@@ -246,7 +253,7 @@ h1 {
 }
 
 .cfp-badge {
-  font-size: 9px;
+  font-size: 11px;
   color: var(--text-dim);
   white-space: nowrap;
   margin-left: auto;
@@ -260,9 +267,9 @@ h1 {
 }
 
 .cell {
-  width: 110px;
-  min-width: 110px;
-  padding: 5px 4px;
+  width: 150px;
+  min-width: 150px;
+  padding: 6px 5px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -282,14 +289,14 @@ h1 {
 .cell.no-fit:hover { filter: none; }
 
 .cell-inner {
-  width: 90px;
-  height: 28px;
+  width: 128px;
+  height: 32px;
   border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 4px;
-  font-size: 11px;
+  gap: 5px;
+  font-size: 12px;
   font-weight: 500;
   transition: all 0.15s;
 }

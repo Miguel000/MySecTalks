@@ -37,6 +37,7 @@
     { "id": "spain", "label": "Spain" },
     { "id": "outside-eu", "label": "Outside Europe (EN)" },
     { "id": "tech", "label": "Tech Conferences" },
+    { "id": "tech-dev", "label": "Dev & Tech (Security Track)" },
     { "id": "latam", "label": "Latin America (ES)" }
   ],
   "conferences": [
@@ -379,6 +380,66 @@
       "cfp_opens": "July",
       "cfp_closes": "September",
       "prior": false
+    },
+    {
+      "id": "codemotion",
+      "name": "Codemotion",
+      "location": "Spain + Italy + DE",
+      "region": "tech-dev",
+      "event_month": "March / October",
+      "cfp_opens": "October",
+      "cfp_closes": "January",
+      "prior": true
+    },
+    {
+      "id": "t3chfest",
+      "name": "T3chFest",
+      "location": "Getafe, ES",
+      "region": "tech-dev",
+      "event_month": "March",
+      "cfp_opens": "October",
+      "cfp_closes": "December",
+      "prior": true
+    },
+    {
+      "id": "devseccon",
+      "name": "DevSecCon",
+      "location": "London + Online",
+      "region": "tech-dev",
+      "event_month": "October / November",
+      "cfp_opens": "May",
+      "cfp_closes": "August",
+      "prior": false
+    },
+    {
+      "id": "cloud-native-securitycon",
+      "name": "Cloud Native SecurityCon",
+      "location": "Amsterdam / Chicago",
+      "region": "tech-dev",
+      "event_month": "March / November",
+      "cfp_opens": "October / April",
+      "cfp_closes": "December / June",
+      "prior": false
+    },
+    {
+      "id": "allday-devops",
+      "name": "AllDayDevOps",
+      "location": "Online",
+      "region": "tech-dev",
+      "event_month": "October",
+      "cfp_opens": "June",
+      "cfp_closes": "August",
+      "prior": true
+    },
+    {
+      "id": "dotnetconf",
+      "name": "DotSecurity",
+      "location": "Paris, FR",
+      "region": "tech-dev",
+      "event_month": "April",
+      "cfp_opens": "November",
+      "cfp_closes": "January",
+      "prior": false
     }
   ],
   "fit": {
@@ -388,6 +449,7 @@
       "rootedcon", "navajanegra",
       "defcon", "blackhat-usa", "shmoocon", "hitb", "sector", "fwd-cloudsec-na", "owasp-appsec",
       "kubecon", "open-source-securitycon", "github-universe",
+      "codemotion", "t3chfest", "devseccon", "cloud-native-securitycon", "allday-devops",
       "ekoparty", "dragonjar", "8dot8", "bugcon"
     ],
     "five-tiers-ai-agent-detection": [
@@ -396,6 +458,7 @@
       "rootedcon", "navajanegra",
       "defcon", "shmoocon", "hitb", "sector", "fwd-cloudsec-na", "owasp-appsec",
       "kubecon", "open-source-securitycon",
+      "codemotion", "t3chfest", "devseccon", "cloud-native-securitycon",
       "ekoparty", "dragonjar", "8dot8", "bugcon"
     ],
     "cicd-supply-chain-falco": [
@@ -404,6 +467,7 @@
       "rootedcon", "navajanegra",
       "defcon", "blackhat-usa", "shmoocon", "hitb", "sector", "fwd-cloudsec-na", "owasp-appsec",
       "kubecon", "open-source-securitycon", "github-universe",
+      "codemotion", "t3chfest", "devseccon", "cloud-native-securitycon", "allday-devops", "dotnetconf",
       "ekoparty", "dragonjar", "8dot8", "bugcon"
     ],
     "npm-worms-supply-chain": [
@@ -412,6 +476,7 @@
       "rootedcon", "navajanegra",
       "defcon", "blackhat-usa", "hitb", "sector", "owasp-appsec",
       "kubecon", "open-source-securitycon", "github-universe",
+      "codemotion", "t3chfest", "devseccon", "allday-devops",
       "ekoparty", "dragonjar", "8dot8", "bugcon"
     ],
     "ai-robust-security-challenges": [
@@ -419,6 +484,7 @@
       "confidence", "lehack",
       "rootedcon", "navajanegra",
       "defcon", "shmoocon", "hitb", "sector",
+      "codemotion", "t3chfest",
       "ekoparty", "dragonjar", "bugcon"
     ]
   },
